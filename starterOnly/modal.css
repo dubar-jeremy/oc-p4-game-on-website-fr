@@ -527,3 +527,45 @@ footer {
   }
 }
 
+.error-message {
+  font-size: 18px;
+  color: red;
+}
+
+.success-box {
+  display: none;
+  position: relative;
+  margin: 5% auto;
+  width: 100%;
+  max-width: 500px;
+  background: #232323;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding-top: 10px;
+  height: 75vh;
+}
+
+.inner-success-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.inner-success-box > p {
+  text-align: center;
+}
+
+.bground-2 {
+  display: none;
+  position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(26, 39, 156, 0.4);
+}
